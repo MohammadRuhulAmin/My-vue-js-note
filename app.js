@@ -14,6 +14,9 @@ new Vue({
             name:"Mohammad Ruhul Amin",
             Email:"alfaBinomialbeta23@gmail.com",
             contact:"01403288711"
+        },
+        geeting:()=>{
+            return "this is my first function ";
         }
     }
 
