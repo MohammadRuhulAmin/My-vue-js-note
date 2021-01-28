@@ -18,6 +18,14 @@ new Vue({
         geeting:()=>{
             return "this is my first function ";
         }
+    },
+    methods:{
+        my_first_function:function(){
+            return "this function is calling from methods!";
+        },
+        using_own_property:function(){
+            return this.myInfo;
+        }
     }
 
 });
