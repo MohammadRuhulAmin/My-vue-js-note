@@ -4,26 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 </head>
 
 <body>
-    <div id="app">
-        <p>{{title}}</p>
-        <p>{{isItTrue}}</p>
-        <p>{{cars[2]}}</p>
-        <p>{{robot.name}}</p>
-        <p>{{robot.height}}</p>
-        <p>{{myInfo.name}}</p>
-        <p>{{myInfo.Email}}</p>
-        <p>{{geeting()}}</p>
-        <p>{{my_first_function()}}</p>
-        <p>{{using_own_property().name}}</p>
-        <p>{{using_own_property().Email}}</p>
-        <p>{{using_own_property().contact}}</p>
+    <div class="my-test" id="app">
+
+        <img class="image-property" v-bind:src="src" v-bind:alt="alt">
     </div>
 
-   <script src="app.js"></script>
+   <script src="app.js">
+   </script>
 
 </body>
 </html>

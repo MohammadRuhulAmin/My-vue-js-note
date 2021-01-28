@@ -1,0 +1,10 @@
+.my-test{
+    border:1px solid;
+    background-color: blueviolet;
+    margin: 25px;;
+    border-radius: 5px;
+}
+.image-property{
+    width: 500px;
+    height: 500px;
+}
