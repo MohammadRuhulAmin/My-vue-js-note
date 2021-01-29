@@ -10,17 +10,15 @@
 
 <body>
     <div id="app">
-        <form v-on:submit.prevent="handleForm">
-            <label >First Name</label>
-            <input class="input-field" type="text" v-model="formData.firstName">
-            <hr>
-            <label>Last Name</label>
-            <input class="input-field" type="text" v-model="formData.lastName">
-            <hr>
-            <button class="my-button" type="submit">Submit</button>
-        </form>
-     
-    
+      <button v-on:click="a++">Add A</button>
+      <button v-on:click="b++">Add B</button>
+        
+      <p>A = {{a}}</p>
+      <p>B = {{b}}</p>
+      <p>Salary + A = {{addToA()}}</p>
+      <p>Salary + B = {{addToB()}}</p>
+
+
     </div>
   
 
