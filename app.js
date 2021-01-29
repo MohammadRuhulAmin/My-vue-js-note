@@ -1,11 +1,7 @@
 new Vue({
     el:"#app",
     data:{
-        userInfo:{
-            name:"mohammad",
-            age:25,
-            allowedAge:26,
-        }
+        cars:["BMW","Toyota","Marcitis","Tesla"],
     },
     methods: {
         changeUser:function(){

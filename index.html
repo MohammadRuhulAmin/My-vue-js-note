@@ -10,22 +10,11 @@
 
 <body>
     <div class="my-test" id="app">
-        <p v-show="userInfo.name === 'mohammad'">
-            v-show directives is true
-
-        </p>
-<!-- 
-        <img class="image-property" v-bind:src="src" v-bind:alt="alt">
-     -->
-      <p v-if="userInfo.age > userInfo.allowedAge">
-          you are ready to go !
-      </p>
-      <p v-else-if="changeUser()==='mohammad'">
-          hi ruhul
-      </p>
-      <p v-else>
-        you are not going to go to school
-      </p>
+      
+       <p v-for="car in cars">
+           {{car}}
+       </p>
+   
     
     </div>
   
