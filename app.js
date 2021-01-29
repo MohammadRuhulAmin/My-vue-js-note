@@ -6,7 +6,12 @@ new Vue({
             age:25,
             allowedAge:26,
         }
-    }
+    },
+    methods: {
+        changeUser:function(){
+            return this.userInfo.name;
+        }
+    },
         
      
     
