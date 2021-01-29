@@ -4,8 +4,9 @@ new Vue({
        name:"Mohammad Ruhul Amin",
     },
     methods: {
-       updateName(changeName){
+       updateName(changeName,event){
            this.name = changeName;
+           console.log($event);
        }
     },
         
