@@ -10,9 +10,9 @@
 
 <body>
     <div class="my-test" id="app">
-
+<!-- 
         <img class="image-property" v-bind:src="src" v-bind:alt="alt">
-    
+     -->
        <h1>
             <a v-bind:href="link">Google Account</a>
         </h1>
@@ -20,7 +20,11 @@
             <a v-bind:href="youtube_link">Youtube Channel</a>
         </h1>
         <h1 v-text="aboutMyChannel"></h1>
+        
+        <p v-html="myHtml"></p>
+    
     </div>
+  
 
    <script src="app.js">
    </script>
