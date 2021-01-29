@@ -10,10 +10,16 @@
 
 <body>
     <div id="app">
-    
-        {{name}}
-        <button class="my-button" v-on:click="updateName('sakib mia',$event)"> Change Author </button>
-       
+        <form v-on:submit.prevent="handleForm">
+            <label >First Name</label>
+            <input class="input-field" type="text" v-model="formData.firstName">
+            <hr>
+            <label>Last Name</label>
+            <input class="input-field" type="text" v-model="formData.lastName">
+            <hr>
+            <button class="my-button" type="submit">Submit</button>
+        </form>
+     
     
     </div>
   

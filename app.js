@@ -1,13 +1,16 @@
 new Vue({
     el:"#app",
     data:{
-       name:"Mohammad Ruhul Amin",
+      formData:{
+          firstName:'',
+          lastName:'',
+          school:'',
+      }
     },
     methods: {
-       updateName(changeName,event){
-           this.name = changeName;
-           console.log($event);
-       }
+      handleForm(){
+          console.log(this.formData);
+      }
     },
         
      
