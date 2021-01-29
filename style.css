@@ -1,0 +1,13 @@
+.my-button{
+    background-color: blueviolet;
+    width: 100px;
+    border-style:1px;
+    border-radius: 15px;
+    height: 50px;
+    box-shadow: 0 2 2 2;
+
+}
+
+.my-button:hover{
+    background-color: aqua;
+}

@@ -1,12 +1,12 @@
 new Vue({
     el:"#app",
     data:{
-        cars:["BMW","Toyota","Marcitis","Tesla"],
+       name:"Mohammad Ruhul Amin",
     },
     methods: {
-        changeUser:function(){
-            return this.userInfo.name;
-        }
+       updateName(){
+           this.name = "Sayfullah Islam";
+       }
     },
         
      
