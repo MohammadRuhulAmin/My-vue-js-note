@@ -1,22 +1,14 @@
-new Vue({
-    el:"#app",
+const temp = "  <p>My Name is {{name}}</p>";
+const app1 = new Vue({
+    // el:"#app",
     data:{
-     a:0,
-     b:0,
-     salary:10,
+        name:"Mohammad Ruhul Amin",
     },
-    methods: {
-        
-    },
-    computed:{
-        addToA(){
-            return this.a + this.salary;
-        },
-        addToB(){
-            return this.b + this.salary;
-        }
-    }
-        
-     
+    template:temp,
+      
+    
     
 });
+setTimeout(()=>{
+    app1.$mount('#app')
+},2000);
