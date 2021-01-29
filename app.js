@@ -6,13 +6,16 @@ new Vue({
      salary:10,
     },
     methods: {
+        
+    },
+    computed:{
         addToA(){
             return this.a + this.salary;
         },
         addToB(){
             return this.b + this.salary;
         }
-    },
+    }
         
      
     
