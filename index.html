@@ -13,15 +13,15 @@
 <!-- 
         <img class="image-property" v-bind:src="src" v-bind:alt="alt">
      -->
-       <h1>
-            <a v-bind:href="link">Google Account</a>
-        </h1>
-        <h1>
-            <a v-bind:href="youtube_link">Youtube Channel</a>
-        </h1>
-        <h1 v-text="aboutMyChannel"></h1>
-        
-        <p v-html="myHtml"></p>
+      <p v-if="userInfo.age > userInfo.allowedAge">
+          you are ready to go !
+      </p>
+      <p v-else-if="userInfo.name==='mohammad'">
+          hi ruhul
+      </p>
+      <p v-else>
+        you are not going to go to school
+      </p>
     
     </div>
   
